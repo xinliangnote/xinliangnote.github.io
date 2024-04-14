@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Bot on 程序员新亮</title>
+        <link>http://localhost:1313/tags/bot/</link>
+        <description>Recent content in Bot on 程序员新亮</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>程序员新亮</copyright>
+        <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/bot/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>《智能微信助手》让沟通更高效</title>
+        <link>http://localhost:1313/p/wechat-bot/</link>
+        <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/wechat-bot/</guid>
+        <description>&lt;h2 id=&#34;1-智能回复&#34;&gt;
+    &lt;a href=&#34;#1-%e6%99%ba%e8%83%bd%e5%9b%9e%e5%a4%8d&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    1. 智能回复
+&lt;/h2&gt;&lt;p&gt;智能识别群消息并自动回复，支持根据自定义关键词触发，现已整合 Kimi AI。&lt;/p&gt;
+&lt;h2 id=&#34;2-入群欢迎&#34;&gt;
+    &lt;a href=&#34;#2-%e5%85%a5%e7%be%a4%e6%ac%a2%e8%bf%8e&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    2. 入群欢迎
+&lt;/h2&gt;&lt;p&gt;在微信群聊中，当有新成员加入时，自动向新加入群聊的用户发送一条友好的消息，以示欢迎。&lt;/p&gt;
+&lt;p&gt;例如，欢迎消息可以包含群聊的规则、介绍、活动信息或其他对新成员有用的信息。这样的自动消息有助于营造一个热情和友好的群聊环境，同时也能够快速向新成员传达重要信息。&lt;/p&gt;
+&lt;p&gt;您可以选择仅在特定几个群组中启用自动发送欢迎语的功能，从而实现个性化的群组管理。&lt;/p&gt;
+&lt;h2 id=&#34;3-好友请求&#34;&gt;
+    &lt;a href=&#34;#3-%e5%a5%bd%e5%8f%8b%e8%af%b7%e6%b1%82&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    3. 好友请求
+&lt;/h2&gt;&lt;p&gt;能够自动通过好友验证，并发送定制化的欢迎信息。此外，它还能根据好友请求的内容，自动邀请新朋友加入您预设的群聊。&lt;/p&gt;
+&lt;h2 id=&#34;4-群发消息&#34;&gt;
+    &lt;a href=&#34;#4-%e7%be%a4%e5%8f%91%e6%b6%88%e6%81%af&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    4. 群发消息
+&lt;/h2&gt;&lt;p&gt;能够自动发送消息（文本/表情/图片）给多个接收者，自动地将消息批量发送给选定的多个好友或多个群聊。&lt;/p&gt;
+&lt;h2 id=&#34;5-消息监控&#34;&gt;
+    &lt;a href=&#34;#5-%e6%b6%88%e6%81%af%e7%9b%91%e6%8e%a7&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    5. 消息监控
+&lt;/h2&gt;&lt;h3 id=&#34;监控邀请进群的行为&#34;&gt;
+    &lt;a href=&#34;#%e7%9b%91%e6%8e%a7%e9%82%80%e8%af%b7%e8%bf%9b%e7%be%a4%e7%9a%84%e8%a1%8c%e4%b8%ba&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    监控邀请进群的行为
+&lt;/h3&gt;&lt;p&gt;监控数据：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;群组ID&lt;/li&gt;
+&lt;li&gt;群组名称&lt;/li&gt;
+&lt;li&gt;邀请人&lt;/li&gt;
+&lt;li&gt;被邀请人&lt;/li&gt;
+&lt;li&gt;邀请类型（扫码进群 或 邀请进群）&lt;/li&gt;
+&lt;li&gt;入群时间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;6-定时任务&#34;&gt;
+    &lt;a href=&#34;#6-%e5%ae%9a%e6%97%b6%e4%bb%bb%e5%8a%a1&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    6. 定时任务
+&lt;/h2&gt;&lt;p&gt;可以帮助用户在微信上自动化执行一系列预定的任务。&lt;/p&gt;
+&lt;p&gt;这项功能特别适合那些需要在特定时间发送消息、提醒事项或执行其他任务的用户。&lt;/p&gt;
+&lt;h2 id=&#34;7-数据存储&#34;&gt;
+    &lt;a href=&#34;#7-%e6%95%b0%e6%8d%ae%e5%ad%98%e5%82%a8&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    7. 数据存储
+&lt;/h2&gt;&lt;h3 id=&#34;好友申请记录表&#34;&gt;
+    &lt;a href=&#34;#%e5%a5%bd%e5%8f%8b%e7%94%b3%e8%af%b7%e8%ae%b0%e5%bd%95%e8%a1%a8&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    好友申请记录表
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;用户名&lt;/li&gt;
+&lt;li&gt;昵称&lt;/li&gt;
+&lt;li&gt;申请信息&lt;/li&gt;
+&lt;li&gt;是否已自动邀请进群&lt;/li&gt;
+&lt;li&gt;邀请进的群名&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;群组邀请记录表&#34;&gt;
+    &lt;a href=&#34;#%e7%be%a4%e7%bb%84%e9%82%80%e8%af%b7%e8%ae%b0%e5%bd%95%e8%a1%a8&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    群组邀请记录表
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;群组ID&lt;/li&gt;
+&lt;li&gt;群组名称&lt;/li&gt;
+&lt;li&gt;邀请人&lt;/li&gt;
+&lt;li&gt;被邀请人&lt;/li&gt;
+&lt;li&gt;邀请类型（扫码进群 或 邀请进群）&lt;/li&gt;
+&lt;li&gt;入群时间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;好友聊天文本信息日志表&#34;&gt;
+    &lt;a href=&#34;#%e5%a5%bd%e5%8f%8b%e8%81%8a%e5%a4%a9%e6%96%87%e6%9c%ac%e4%bf%a1%e6%81%af%e6%97%a5%e5%bf%97%e8%a1%a8&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    好友聊天文本信息日志表
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;发送者用户名&lt;/li&gt;
+&lt;li&gt;发送者昵称&lt;/li&gt;
+&lt;li&gt;消息ID&lt;/li&gt;
+&lt;li&gt;消息内容&lt;/li&gt;
+&lt;li&gt;接收者用户名&lt;/li&gt;
+&lt;li&gt;接收者昵称&lt;/li&gt;
+&lt;li&gt;是否撤回&lt;/li&gt;
+&lt;li&gt;发送时间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;群组聊天文本信息日志表&#34;&gt;
+    &lt;a href=&#34;#%e7%be%a4%e7%bb%84%e8%81%8a%e5%a4%a9%e6%96%87%e6%9c%ac%e4%bf%a1%e6%81%af%e6%97%a5%e5%bf%97%e8%a1%a8&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    群组聊天文本信息日志表
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;发送者用户名&lt;/li&gt;
+&lt;li&gt;发送者昵称&lt;/li&gt;
+&lt;li&gt;消息ID&lt;/li&gt;
+&lt;li&gt;消息内容&lt;/li&gt;
+&lt;li&gt;群组用户名&lt;/li&gt;
+&lt;li&gt;群组昵称&lt;/li&gt;
+&lt;li&gt;是否撤回&lt;/li&gt;
+&lt;li&gt;发送时间&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;8-api-调用&#34;&gt;
+    &lt;a href=&#34;#8-api-%e8%b0%83%e7%94%a8&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    8. API 调用
+&lt;/h2&gt;&lt;p&gt;提供基于 HTTP 协议的接口，以便轻松获取和操作数据。&lt;/p&gt;
+&lt;h2 id=&#34;9-更多功能&#34;&gt;
+    &lt;a href=&#34;#9-%e6%9b%b4%e5%a4%9a%e5%8a%9f%e8%83%bd&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    9. 更多功能
+&lt;/h2&gt;&lt;p&gt;持续开发中，欢迎您提出个性化需求及扩展功能。&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/about/#%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f&#34; &gt;👉 感兴趣，请与我联系&lt;/a&gt;。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>

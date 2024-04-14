@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Gin on 程序员新亮</title>
+        <link>http://localhost:1313/tags/gin/</link>
+        <description>Recent content in Gin on 程序员新亮</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>程序员新亮</copyright>
+        <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gin/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>《基于 Gin 封装的高效 Web 框架》</title>
+        <link>http://localhost:1313/p/golang-gin-api/</link>
+        <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/golang-gin-api/</guid>
+        <description>&lt;p&gt;缘起：有部分开发者提出了这样的需求：“亮哥，你的开源项目 &lt;a class=&#34;link&#34; href=&#34;https://github.com/xinliangnote/go-gin-api&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;go-gin-api&lt;/a&gt; 项目非常适合我，但是我只需要 API 接口和 CURD 操作示例，不需要界面和其他集成功能。能否提供一个简化版的框架供我快速上手？”&lt;/p&gt;
+&lt;p&gt;针对这个需求，gin-api-mono(框架名称) 应运而生。它是一个 简洁、轻量级 的 API 框架，集成了常用组件 并提供了 CURD 操作示例，方便开发者快速上手。与 &lt;a class=&#34;link&#34; href=&#34;https://github.com/xinliangnote/go-gin-api&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;go-gin-api&lt;/a&gt; 不同的是，gin-api-mono 去掉了一些集成的功能和界面，使得整个框架更加简洁、轻量化。此外 gin-api-mono 也对代码进行了升级以确保性能和稳定性。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;简单说一下 &lt;a class=&#34;link&#34; href=&#34;https://github.com/xinliangnote/go-gin-api&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;go-gin-api&lt;/a&gt; 项目，是一个基于 Gin 的 API 框架，它提供了 WEB 界面一键安装的方式，让你可以快速启动一个开箱即用的 Go 项目 (新手入门必备) 。目前，该项目已经获得了 5.4K 的 Star。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;第一章了解-gin-框架&#34;&gt;
+    &lt;a href=&#34;#%e7%ac%ac%e4%b8%80%e7%ab%a0%e4%ba%86%e8%a7%a3-gin-%e6%a1%86%e6%9e%b6&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    第一章：了解 Gin 框架
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;1.1 Gin 框架介绍与特点&lt;/li&gt;
+&lt;li&gt;1.2 安装与初始化 Gin&lt;/li&gt;
+&lt;li&gt;1.3 路由和中间件基础&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;第二章构建自己的-web-框架&#34;&gt;
+    &lt;a href=&#34;#%e7%ac%ac%e4%ba%8c%e7%ab%a0%e6%9e%84%e5%bb%ba%e8%87%aa%e5%b7%b1%e7%9a%84-web-%e6%a1%86%e6%9e%b6&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    第二章：构建自己的 Web 框架
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;2.1 框架设计理念与目标&lt;/li&gt;
+&lt;li&gt;2.2 项目目录结构规划&lt;/li&gt;
+&lt;li&gt;2.3 配置管理与环境切换&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;第三章核心功能实现&#34;&gt;
+    &lt;a href=&#34;#%e7%ac%ac%e4%b8%89%e7%ab%a0%e6%a0%b8%e5%bf%83%e5%8a%9f%e8%83%bd%e5%ae%9e%e7%8e%b0&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    第三章：核心功能实现
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;3.1 实现服务启动时可选的配置项（免费预览）&lt;/li&gt;
+&lt;li&gt;3.2 实现异常捕获与告警&lt;/li&gt;
+&lt;li&gt;3.3 实现错误处理与告警&lt;/li&gt;
+&lt;li&gt;3.4 实现链路日志记录（免费预览）&lt;/li&gt;
+&lt;li&gt;3.5 包装 gin IRoutes&lt;/li&gt;
+&lt;li&gt;3.6 包装 gin Context&lt;/li&gt;
+&lt;li&gt;3.7 定义统一错误码与错误信息语言包&lt;/li&gt;
+&lt;li&gt;3.8 定义接口返回数据规范&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;第四章第三方组件集成&#34;&gt;
+    &lt;a href=&#34;#%e7%ac%ac%e5%9b%9b%e7%ab%a0%e7%ac%ac%e4%b8%89%e6%96%b9%e7%bb%84%e4%bb%b6%e9%9b%86%e6%88%90&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    第四章：第三方组件集成
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;4.1 集成 gorm 进行 MySQL 数据库操作，并支持主从数据库配置&lt;/li&gt;
+&lt;li&gt;4.2 集成 redis 进行 Redis 数据库操作&lt;/li&gt;
+&lt;li&gt;4.3 集成 mongo 进行 MongoDB 数据库操作&lt;/li&gt;
+&lt;li&gt;4.4 集成 resty 进行 HTTP 接口调用&lt;/li&gt;
+&lt;li&gt;4.5 集成 jwt 实现身份认证及验证中间件&lt;/li&gt;
+&lt;li&gt;4.6 集成 swagger 实现自动生成接口文档&lt;/li&gt;
+&lt;li&gt;4.7 集成 aes 对称加密算法&lt;/li&gt;
+&lt;li&gt;4.8 集成 rsa 非对称加密算法&lt;/li&gt;
+&lt;li&gt;4.9 集成 snowflake 实现生成唯一 ID&lt;/li&gt;
+&lt;li&gt;4.10 集成 cors 实现允许前端跨域请求&lt;/li&gt;
+&lt;li&gt;4.11 集成 prometheus 客户端实现注册和暴露指标&lt;/li&gt;
+&lt;li&gt;4.12 集成 pprof 实现应用程序性能分析&lt;/li&gt;
+&lt;li&gt;4.13 集成 gin 开发环境下实现代码的热更新部署&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;第五章restful-api-设计与实现&#34;&gt;
+    &lt;a href=&#34;#%e7%ac%ac%e4%ba%94%e7%ab%a0restful-api-%e8%ae%be%e8%ae%a1%e4%b8%8e%e5%ae%9e%e7%8e%b0&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    第五章：RESTful API 设计与实现
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;5.1 资源映射和路由设计&lt;/li&gt;
+&lt;li&gt;5.2 自定义编写中间件及使用&lt;/li&gt;
+&lt;li&gt;5.3 请求参数解析与验证&lt;/li&gt;
+&lt;li&gt;5.4 基本 CRUD 操作的实现&lt;/li&gt;
+&lt;li&gt;5.5 运行使用与编译成二进制文件（免费预览）&lt;/li&gt;
+&lt;li&gt;5.6 示例二：集成登录、注册和用户管理功能（免费预览）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;第六章加餐&#34;&gt;
+    &lt;a href=&#34;#%e7%ac%ac%e5%85%ad%e7%ab%a0%e5%8a%a0%e9%a4%90&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
+    第六章：加餐
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;6.1 关于 10 个框架设计的实践&lt;/li&gt;
+&lt;li&gt;6.2 Go 开发者成长路线&lt;/li&gt;
+&lt;li&gt;6.3 MySQL 研发规范&lt;/li&gt;
+&lt;li&gt;6.4 Redis 研发规范&lt;/li&gt;
+&lt;li&gt;6.5 Git 使用规范&lt;/li&gt;
+&lt;li&gt;6.6 RESTful API 规范&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;学会后，你将 具备中级 Go 工程师的能力，这将使你有机会获得升职和加薪。&lt;/p&gt;
+&lt;p&gt;目前开源项目 &lt;a class=&#34;link&#34; href=&#34;https://github.com/xinliangnote/go-gin-api&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;go-gin-api&lt;/a&gt; 已经过验证，受到了广泛认可，目前已经获得了超过 5.4K 的 Star。这显示了它在开发者社区中的受欢迎程度和影响力。&lt;/p&gt;
+&lt;p&gt;欢迎小伙伴订阅我的专栏，订阅后我会交流群和两套源码：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;极简版 CURD 代码，适合直接拿来应用到自己项目中&lt;/li&gt;
+&lt;li&gt;带有 登录、注册、用户管理模块，可以进行编码参考&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://xiaobot.net/p/goandai&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;👉 点击查看专栏&lt;/a&gt;。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
