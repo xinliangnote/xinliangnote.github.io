@@ -1,70 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Pages on 程序员新亮</title>
-        <link>http://localhost:1313/page/</link>
-        <description>Recent content in Pages on 程序员新亮</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <copyright>程序员新亮</copyright>
-        <lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/page/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>关于</title>
-        <link>http://localhost:1313/about/</link>
-        <pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/about/</guid>
-        <description>&lt;h2 id=&#34;个人介绍&#34;&gt;
-    &lt;a href=&#34;#%e4%b8%aa%e4%ba%ba%e4%bb%8b%e7%bb%8d&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    个人介绍
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;软件工程师、独立开发者&lt;/li&gt;
-&lt;li&gt;GitHub 9K+ Star，项目 &lt;a class=&#34;link&#34; href=&#34;https://github.com/xinliangnote/go-gin-api&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;go-gin-api&lt;/a&gt; 5.4K Star&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;我能提供&#34;&gt;
-    &lt;a href=&#34;#%e6%88%91%e8%83%bd%e6%8f%90%e4%be%9b&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    我能提供
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;程序员咨询、辅导、培训、定制化开发&lt;/li&gt;
-&lt;li&gt;专栏《Golang 工程师面试题集锦》&lt;/li&gt;
-&lt;li&gt;专栏《基于 Gin 封装的高效 Web 框架》&lt;/li&gt;
-&lt;li&gt;软件《基于调用频次计费的接口管理系统》&lt;/li&gt;
-&lt;li&gt;软件《智能微信助手》让沟通更高效&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;欢迎探讨&#34;&gt;
-    &lt;a href=&#34;#%e6%ac%a2%e8%bf%8e%e6%8e%a2%e8%ae%a8&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    欢迎探讨
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;构建个人品牌与产品体系&lt;/li&gt;
-&lt;li&gt;认知提升、技术更新、副业创收&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;联系方式&#34;&gt;
-    &lt;a href=&#34;#%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    联系方式
-&lt;/h2&gt;&lt;ul&gt;
-&lt;li&gt;微信号：&lt;a class=&#34;link&#34; href=&#34;https://www.yuque.com/xinliangnote/go-gin-api/ktf370#JEe6H&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;wx-xinliang&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;公众号：&lt;a class=&#34;link&#34; href=&#34;https://www.yuque.com/xinliangnote/go-gin-api/ktf370#I8f4b&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;程序员新亮&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        </item>
-        <item>
-        <title>归档</title>
-        <link>http://localhost:1313/archives/</link>
-        <pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/archives/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>搜索</title>
-        <link>http://localhost:1313/search/</link>
-        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-        
-        <guid>http://localhost:1313/search/</guid>
-        <description></description>
-        </item>
-        
-    </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on 程序员新亮</title><link>https://example.com/page/</link><description>Recent content in Pages on 程序员新亮</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>程序员新亮</copyright><lastBuildDate>Sun, 14 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/page/index.xml" rel="self" type="application/rss+xml"/><item><title>关于</title><link>https://example.com/about/</link><pubDate>Sun, 14 Apr 2024 00:00:00 +0000</pubDate><guid>https://example.com/about/</guid><description>&lt;h2 id="个人介绍">
+&lt;a href="#%e4%b8%aa%e4%ba%ba%e4%bb%8b%e7%bb%8d" class="header-anchor">#&lt;/a>
+个人介绍
+&lt;/h2>&lt;ul>
+&lt;li>软件工程师、独立开发者&lt;/li>
+&lt;li>GitHub 9K+ Star，项目 &lt;a class="link" href="https://github.com/xinliangnote/go-gin-api" target="_blank" rel="noopener"
+>go-gin-api&lt;/a> 5.4K Star&lt;/li>
+&lt;/ul>
+&lt;h2 id="我能提供">
+&lt;a href="#%e6%88%91%e8%83%bd%e6%8f%90%e4%be%9b" class="header-anchor">#&lt;/a>
+我能提供
+&lt;/h2>&lt;ul>
+&lt;li>程序员咨询、辅导、培训、定制化开发&lt;/li>
+&lt;li>专栏《Golang 工程师面试题集锦》&lt;/li>
+&lt;li>专栏《基于 Gin 封装的高效 Web 框架》&lt;/li>
+&lt;li>软件《基于调用频次计费的接口管理系统》&lt;/li>
+&lt;li>软件《智能微信助手》让沟通更高效&lt;/li>
+&lt;/ul>
+&lt;h2 id="欢迎探讨">
+&lt;a href="#%e6%ac%a2%e8%bf%8e%e6%8e%a2%e8%ae%a8" class="header-anchor">#&lt;/a>
+欢迎探讨
+&lt;/h2>&lt;ul>
+&lt;li>构建个人品牌与产品体系&lt;/li>
+&lt;li>认知提升、技术更新、副业创收&lt;/li>
+&lt;/ul>
+&lt;h2 id="联系方式">
+&lt;a href="#%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f" class="header-anchor">#&lt;/a>
+联系方式
+&lt;/h2>&lt;ul>
+&lt;li>微信号：&lt;a class="link" href="https://www.yuque.com/xinliangnote/go-gin-api/ktf370#JEe6H" target="_blank" rel="noopener"
+>wx-xinliang&lt;/a>&lt;/li>
+&lt;li>公众号：&lt;a class="link" href="https://www.yuque.com/xinliangnote/go-gin-api/ktf370#I8f4b" target="_blank" rel="noopener"
+>程序员新亮&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>归档</title><link>https://example.com/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://example.com/archives/</guid><description/></item><item><title>搜索</title><link>https://example.com/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/search/</guid><description/></item></channel></rss>
